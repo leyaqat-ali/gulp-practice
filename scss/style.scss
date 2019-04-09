@@ -1,0 +1,21 @@
+$bgColor: #eeeeee;
+$conBg: #ffffff;
+
+body {
+    background-color: $bgColor; 
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    background-color: $conBg; 
+    width: percentage(4/5);
+    margin: 0 auto;
+    padding: 0 15px;
+
+    .content_box {
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+}
